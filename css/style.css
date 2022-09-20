@@ -1,5 +1,5 @@
 .bkcolor {
-    background-color: rgb(78, 78, 78);
+    background-color: rgb(51, 53, 59);
 
 }
 
@@ -18,3 +18,42 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+ }
+    
+.bgAguas{
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("/curso/integrador/images/ba1.jpg");
+background-position: center;
+background-size: 100% 100%;
+}
+
+.tifont{
+    font: 0.7em sans-serif;
+}
+.marg{
+    margin: 0.5rem;
+}
+
+.imgpla{
+    background-image: url("/curso/integrador/images/honolulu.jpg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover 
+    }
+
+.td{
+    text-decoration: underline dotted;
+}
+
+.btbkg{
+background-color: rgb(162, 247, 105);
+}
+
+.ade:link{
+    text-decoration:none;
+    color:aliceblue;
+}
+.ade:visited{
+    text-decoration:none
+    
+}
