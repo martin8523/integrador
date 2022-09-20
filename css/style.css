@@ -51,9 +51,9 @@ background-color: rgb(162, 247, 105);
 
 .ade:link{
     text-decoration:none;
-    color:#fff;
+    color: #fff;
 }
 .ade:visited{
-    text-decoration:none
-    
+    text-decoration:none;
+    color: #fff;
 }
