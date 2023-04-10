@@ -1,0 +1,74 @@
+html, body{
+    height:100%;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+  }
+
+.bkcolor {
+    background-color: rgb(51, 53, 59);
+
+}
+
+#main {
+    background-color: black;
+    height:100%;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.divalig{
+    text-align: center;
+}
+.or{
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+}
+
+.imgbkg{
+    background-image: url(../images/ba1.jpg) ;
+    /* Full height */
+    width: 100%; height: -200%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+    
+.bgAguas{
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/ba1.jpg");
+background-position: center;
+background-size: 100% 100%;
+}
+
+.tifont{
+    font: 0.7em sans-serif;
+}
+.marg{
+    margin: 0.5rem;
+}
+
+.imgpla{
+    background-image: url("../images/honolulu.jpg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover 
+    }
+
+.td{
+    text-decoration: underline dotted;
+}
+
+.btbkg{
+background-color: rgb(162, 247, 105);
+}
+
+.ade:link{
+    text-decoration:none;
+    color: white;
+}
+.ade:visited{
+    text-decoration:none;
+    color: white;
+}
+
+
