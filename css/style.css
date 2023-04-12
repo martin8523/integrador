@@ -192,5 +192,7 @@ background-color: rgb(162, 247, 105);
   }
 
   #sectionform2{
-    display:none;
+    display: none;
+    height: 100vh;
   }
+
