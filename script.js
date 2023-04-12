@@ -16,7 +16,6 @@ function reveal() {
 
 
     window.addEventListener("scroll", reveal);
-      $('#div2').height(height);
 
 
 
@@ -63,3 +62,24 @@ $(document).ready(function () {
 
     $('div.setup-panel div a.btn-primary').trigger('click');
 });
+
+$(document).ready(function(){
+  $("#form1").validate({
+    rules:{
+      floatingInput:{
+        required:true,
+        text:true
+      },
+      floatingPassword:{
+        required:true,
+        minlength:8
+      },
+    }
+  });
+  
+  });
+
+  function hide() {
+    document.getElementById('sectionform2').style.display = 'block';
+    
+      }

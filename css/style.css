@@ -190,3 +190,7 @@ background-color: rgb(162, 247, 105);
   .active.fade-right {
     animation: fade-right 1s ease-in;
   }
+
+  #sectionform2{
+    display:none;
+  }
