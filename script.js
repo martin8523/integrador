@@ -81,5 +81,5 @@ $(document).ready(function(){
 
   function hide() {
     document.getElementById('sectionform2').style.display = 'block';
-    
+    location.href="#sectionform2";    
       }
